@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lic. Ana López - Psicóloga</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #fdfdfd;
+        }
+        header {
+            background-color: #e8e6f7;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #4a4a8a;
+        }
+        header h2 {
+            margin: 5px 0 0;
+            font-weight: normal;
+            font-size: 1.2em;
+            color: #7c7c9a;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #4a4a8a;
+            font-weight: bold;
+        }
+        .hero {
+            background-color: #f0f8f6;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .hero h3 {
+            margin-top: 0;
+            color: #4a4a8a;
+            font-size: 1.5em;
+        }
+        .hero p {
+            max-width: 600px;
+            margin: 20px auto 0;
+            font-size: 1.1em;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .about img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .services ul {
+            list-style: none;
+            padding: 0;
+        }
+        .services li {
+            margin-bottom: 10px;
+        }
+        .cta {
+            background-color: #e8e6f7;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .cta a {
+            background-color: #4a4a8a;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        form {
+            display: grid;
+            gap: 10px;
+        }
+        input, textarea {
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px;
+            font-size: 1em;
+            background-color: #4a4a8a;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #f0f8f6;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+        @media (min-width: 600px) {
+            nav ul {
+                gap: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lic. Ana López</h1>
+        <h2>Psicóloga</h2>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h3>Acompañándote en tu proceso de bienestar emocional</h3>
+        <p>Trabajo desde un enfoque integrador, combinando técnicas de la psicología humanista y la terapia cognitivo conductual.</p>
+    </div>
+
+    <section id="sobre-mi" class="about">
+        <h3>Sobre mí</h3>
+        <p>Soy Licenciada en Psicología con más de diez años de experiencia en el acompañamiento de adolescentes y adultos. Me especializo en procesos de crecimiento personal y manejo de la ansiedad.</p>
+        <img src="https://via.placeholder.com/400x250" alt="Foto de la psicóloga">
+    </section>
+
+    <section id="servicios" class="services">
+        <h3>Servicios</h3>
+        <ul>
+            <li>Psicoterapia individual presencial y online</li>
+            <li>Orientación vocacional</li>
+            <li>Talleres de manejo de estrés</li>
+        </ul>
+    </section>
+
+    <section class="cta">
+        <h3>¿Listo para comenzar tu proceso?</h3>
+        <a href="#contacto">Reservar turno</a>
+    </section>
+
+    <section id="contacto">
+        <h3>Contacto</h3>
+        <form>
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="mensaje" rows="5" placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>WhatsApp: +54 9 11 1234-5678 | Dirección: Calle Falsa 123, Ciudad</p>
+        <p>Sígueme en <a href="#">Instagram</a> y <a href="#">Facebook</a></p>
+        <p>La confidencialidad de tus datos está garantizada.</p>
+    </footer>
+</body>
+</html>
